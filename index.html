@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Пријава - Свети Сава</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f5f6fa, #dcdde1);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      margin-bottom: 20px;
+      color: #192a56;
+    }
+
+    .login-container p {
+      margin-bottom: 30px;
+      color: #353b48;
+      font-size: 1em;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #273c75;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #192a56;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #7f8fa6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>Добродошли</h1>
+    <center><p>Свети Сава</p></center>
+
+    <form action="svetisava2.html" method="post">
+      <input type="text" name="username" placeholder="Корисничко име" required>
+      <input type="password" name="password" placeholder="Лозинка" required>
+      <button type="submit">Пријава</button>
+    </form>
+
+    <footer>
+      &copy; 2025 Свети Сава
+    </footer>
+  </div>
+
+</body>
+</html>
